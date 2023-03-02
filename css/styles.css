@@ -1,0 +1,141 @@
+body {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+/* logo */
+@media (max-width: 576px) {
+  .my-logo {
+    font-size: 16px !important;
+  }
+}
+.my-site-nav a {
+  transition: 0.1s;
+}
+.my-site-nav a:hover {
+  text-decoration: underline;
+}
+/* social links */
+.my-nav-social i {
+  transition: 0.1s;
+}
+.my-nav-social li:nth-child(1) a:hover i {
+  color: #1a8cd8;
+}
+.my-nav-social li:nth-child(2) a:hover i {
+  color: #166fe5;
+}
+.my-nav-social li:nth-child(3) a:hover i {
+  color: #e95600;
+}
+.my-nav-social li:nth-child(4) a:hover i {
+  color: #f00;
+}
+.my-nav-social li:nth-child(5) a:hover i {
+  color: #eeb616;
+}
+@media (max-width: 850px) {
+  .my-nav-social {
+    display: none !important;
+  }
+}
+/* mobile nav btn */
+.my-nav-btn {
+  padding: 4px 8px;
+  border: none;
+}
+
+/* HERO section */
+.my-card-text {
+  text-align: justify;
+  line-height: 1.2;
+}
+.my-hero-image {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .my-card-row {
+    flex-direction: column-reverse !important;
+  }
+  .my-card-body-wrapper .card-body {
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .my-card-body-wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+/* STORY section */
+
+/* GALLERY section */
+.slider-image {
+  display: block !important;
+  width: 400px;
+  height: 300px;
+}
+.my-slider-li:hover .my-slider-card {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.my-slider-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.my-card-gall-title {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.my-carg-gall-btn:hover {
+  text-decoration: none;
+}
+/* FEATURES section */
+.my-features-row .col .card {
+  height: 100%;
+  transition: 0.5s;
+}
+.my-features-row .col .card:hover {
+  background-color: #e7e7e7;
+}
+@media (max-width: 992px) {
+  .my-features-row .col:nth-child(odd) .card {
+    border-right: 1px solid #dee2e6 !important;
+  }
+  .my-features-row .col:nth-child(2) .card,
+  .my-features-row .col:nth-child(4) .card {
+    border-bottom: 1px solid #dee2e6 !important;
+    border-right: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .my-features-row .col .card {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+}
+
+/* FORM section */
+@media (max-width: 576px) {
+  .my-form-radio {
+    flex-direction: column;
+  }
+  .my-form-radio > p {
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/* FOOTER */
+footer a:hover {
+  background-color: #b2b2b2;
+}
+@media (max-width: 992px) {
+  footer {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
